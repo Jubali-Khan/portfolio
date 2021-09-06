@@ -22,7 +22,7 @@ const About = () => {
             <p>
               I'm{" "}
               <a
-                href="https://twitter.com/vick_OnRails"
+                href="https://twitter.com/JubranNaser"
                 target="_blank"
                 rel="noopenner noreferrer"
               >
