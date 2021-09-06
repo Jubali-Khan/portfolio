@@ -1,8 +1,7 @@
-import { exception } from 'console';
 import fs from 'fs';
 import matter from 'gray-matter';
 import path from 'path';
-import remark from 'remark';
+import { remark } from 'remark';
 import highlight from 'remark-highlight.js';
 import { v4 as uuid } from 'uuid';
 import { IContentData } from '../pages/articles/[id]';
@@ -40,7 +39,7 @@ export const getAllContentIds = (contentType: IContentType) => {
       break;
 
     default:
-      throw new exception('You have to provide a content type');
+      throw new Error('You have to provide a content type');
   }
 
   // return the slug of all the content IDs
@@ -86,7 +85,7 @@ export const getContentData = async (id: string, contentType: IContentType) => {
       break;
 
     default:
-      throw new exception('You have to provide a content type');
+      throw new Error('You have to provide a content type');
   }
 
   // loop through all the content types and compare the slug to get the filename
