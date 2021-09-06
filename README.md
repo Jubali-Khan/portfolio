@@ -1,6 +1,25 @@
 ![Next Starter Peacock](./screenshot.png)
 
 Howdy!
+Six Ws:
+
+What
+Basically a portfolio with no projects on it, yet.
+
+Why
+Because each developer has to have their own portfolio.
+
+Who
+Jubran, with help from UpLeveled mentors
+
+How
+Not a clue.
+
+Where
+Should run in the browser, it's a website after all.
+
+When
+06.09.2021
 
 # 🦚 Next Starter Peacock
 
