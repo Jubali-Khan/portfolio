@@ -20,8 +20,7 @@
     "react-tilt": "0.1.4",
     "remark": "14.0.1",
     "remark-highlight.js": "7.0.1",
-    "uuid": "8.3.2",
-    "yarn": "^1.22.11"
+    "uuid": "8.3.2"
   },
   "devDependencies": {
     "@next/eslint-plugin-next": "^11.0.0",
@@ -33,7 +32,6 @@
     "@upleveled/eslint-config-upleveled": "1.15.2",
     "babel-eslint": "^10.1.0",
     "eslint": "^7.23.0",
-    "eslint-config-next": "^11.0.0",
     "eslint-config-react-app": "^6.0.0",
     "eslint-import-resolver-typescript": "^2.4.0",
     "eslint-plugin-cypress": "^2.11.2",
