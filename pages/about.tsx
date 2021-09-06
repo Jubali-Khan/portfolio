@@ -1,8 +1,7 @@
-import React from "react";
-import Image from 'next/image'
-
-import { Layout, Container } from "../components";
-import { StyledAbout } from "../components/styles/about.styles";
+import Image from 'next/image';
+import React from 'react';
+import { Container, Layout } from '../components';
+import { StyledAbout } from '../components/styles/about.styles';
 
 /**
  * About page `/about`
@@ -12,7 +11,7 @@ const About = () => {
     <Layout
       pathname={"/about"}
       pageTitle="About"
-      pageDescription="About page of Peacock starter by Victor Ofoegbu, Product Designer and Frontend Software Engineer in Nigeria"
+      pageDescription="About page of Jubran Naser"
     >
       <StyledAbout>
         <Container width="narrow">
@@ -27,23 +26,18 @@ const About = () => {
                 target="_blank"
                 rel="noopenner noreferrer"
               >
-                @Victor
+                @Jubran
               </a>
-              , a Designer and Frontend Engineer learning to build fast and
-              delightful experiences on the web. I'm also passionate about Web
-              Standards, Design Systems and Learning in Public.
+              , a budding web developer interested in computers, the web and technology in general.
             </p>
             <p>
-              Aside from my day job, I work on a few side projects to help
-              designers and engineers build with speed
+              When I'm not coding or learning to code, I'm usually watching movies, series or just reading whatever I find interesting.
             </p>
 
             <p>
-              I work heavily with ReactJs, Redux, Styled Components, Figma,
-              Storybook & recently picked up C#/Dotnet Core for backend APIs. If
-              you're excited about any of the following, please shoot at me on{" "}
+              I'm currently learning JavaScript and if you'd like to follow my journey, you could follow me on {" "}
               <a
-                href="https://twitter.com/vick_OnRails"
+                href="https://twitter.com/JubranNaser"
                 target="_blank"
                 rel="noopenner noreferrer"
               >
